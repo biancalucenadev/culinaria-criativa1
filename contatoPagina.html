@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contatoPagina.css">
+    <title>Contato</title>
+</head>
+<body>
+    <section>
+        <h2>Entre em contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="e-mail" name="e-mail" placeholder="Digite seu e-mail" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua receita e a história por trás dela" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="ea5e5825-2679-4302-954b-99b3ecadccf5">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
+        </form>
+    </section>
+
+</body>
+</html>
