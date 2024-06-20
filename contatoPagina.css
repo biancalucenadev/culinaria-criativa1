@@ -1,0 +1,139 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("componentes/fontes/images/culinariacriativa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: black;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+section h2{
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+
+}
+
+form input:focus{
+    border-radius: 15px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+
+}
+
+form textarea:focus{
+    border-radius: 15px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+
+}
+
+form button:hover{
+    background: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:white ;
+    flex-direction: column;
+
+}
+
+.text{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.paragrafo{
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.btn{
+    padding: 15px 50px;
+    background: black;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+

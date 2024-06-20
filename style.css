@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-image: linear-gradient(to bottom, #D34F19, #6D290D);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    overflow-x: hidden;
+    height: 130vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+aside {
+    max-width: 45%;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+   color: white; 
+}
+
+a:hover{
+    color: black;
+    transition: 0.3s all;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#inscreva-se-btn{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    
+    font-weight: 300;
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   margin-top: 100px;
+
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    line-height: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    
+      
+}
+
+span{
+    color: black;
+}
+
+.banner {
+    position: absolute;
+    width: 680px;
+    right: 110px;
+    top: 120px;
+    max-height: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.55);
+}
+
+p{
+    line-height: 20px;
+    width: 83%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: black;
+    color: white;
+
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
